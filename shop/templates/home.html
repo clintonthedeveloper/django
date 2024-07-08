@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <a href="{% url 'about'%}">about</a>
+    <a href="{% url 'contact'%}">contact</a>
+    <a href="{% url 'services'%}">services</a>
+    <p>This is the homepage</p>
+    <img src="{% static 'index.jpeg'%}" alt="" srcset="">
+    <img src="{% static 'man-8707406_640.webp'%}" alt="" srcset="">
+    <img src="{% static 'pexels-photo-699466.jpeg'%}" alt="" srcset="">
+    <img src="{% static 'pexels-photo-1525612.jpeg'%}" alt="" sizes="" srcset="">
+</body>
+</html>
